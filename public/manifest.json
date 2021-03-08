@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "manifest_version": 3,
+  "name": "google-chrome-react-extension-template",
+  "description": "",
+  "offline_enabled": true,
+  "permissions": ["storage", "activeTab"],
+  "options_ui": {
+    "page": "Options.html",
+    "open_in_tab": false
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "24": "images/icon_24.png",
+      "32": "images/icon_32.png"
+    },
+    "default_title": "google-chrome-react-extension-template",
+    "default_popup": "Extension.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

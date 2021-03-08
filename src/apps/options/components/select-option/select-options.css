@@ -1,0 +1,25 @@
+.wrap {
+    min-height: 150px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 5px;
+    justify-content: center;
+}
+
+.header {
+    color: #555;
+}
+
+.action-buttons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.action-button {
+    margin-right: 2px;
+}

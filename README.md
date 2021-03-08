@@ -3,20 +3,20 @@
 This is an empty project for creating a google-chrome extension with React JS.
 
 Project structure:
-
-├───public                          <i>--> Static files</i>
-│   └───images                      <i>--> Static images</i>
-└───src                             <i>--> Source files</i>
-    ├───apps                        <i>--> Source code for extension screens</i>
-    │   ├───extension               <i>--> Code for extension screen (browser action)</i>
-    │   └───options                 <i>--> Code for options screen</i>
-    │       └───components          <i>--> Code of components for options sreen</i>
+```
+├───public                          --> Static files
+│   └───images                      --> Static images
+└───src                             --> Source files
+    ├───apps                        --> Source code for extension screens
+    │   ├───extension               --> Code for extension screen (browser action)
+    │   └───options                 --> Code for options screen
+    │       └───components          --> Code of components for options sreen
     │           └───select-option  
-    ├───background-scripts          <i>--> Code of background scripts</i>
-    ├───consts                      <i>--> Consts for the extension</i>
-    ├───content-sripts              <i>--> Code of contents scripts</i>
-    └───modules                     <i>--> Code of helper module</i>
-
+    ├───background-scripts          --> Code of background scripts
+    ├───consts                      --> Consts for the extension
+    ├───content-sripts              --> Code of contents scripts
+    └───modules                     --> Code of helper module
+```
 
 #### How to build it?
 For build the extension, you need:
